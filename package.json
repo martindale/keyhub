@@ -1,0 +1,15 @@
+{
+  "name": "keyhub",
+  "version": "0.1.0",
+  "description": "Simple key management.",
+  "main": "scripts/node.js",
+  "repository": "git@github.com:FabricLabs/keyhub.git",
+  "author": "Fabric Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@fabric/http": "martindale/web#forge-demo"
+  },
+  "scripts": {
+    "start": "node scripts/node.js"
+  }
+}
