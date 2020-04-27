@@ -1,12 +1,27 @@
 {
   "name": "KeyHub",
   "description": "Simple key management.",
+  "components": {
+    "index": "keyhub-component"
+  },
   "resources": {
+    "Keypair": {
+      "name": "Keypair",
+      "components": {
+        "list": "fabric-keypair-list",
+        "view": "fabric-keypair-view"
+      }
+    },
     "Wallet": {
       "name": "Wallet",
       "components": {
         "list": "fabric-wallet-list",
         "view": "fabric-wallet-view"
+      },
+      "properties": {
+        "keypairs": {
+          "type": "List"
+        }
       }
     }
   }
