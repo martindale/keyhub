@@ -1,4 +1,13 @@
 {
   "name": "KeyHub",
-  "description": "Simple key management."
+  "description": "Simple key management.",
+  "resources": {
+    "Wallet": {
+      "name": "Wallet",
+      "components": {
+        "list": "fabric-wallet-list",
+        "view": "fabric-wallet-view"
+      }
+    }
+  }
 }
